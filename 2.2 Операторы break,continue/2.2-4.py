@@ -11,8 +11,8 @@ while n <= 100:
     if n>= 10:
         print(n)
     n = int(input())
-'''
 
+'''
 n = 0
 s = []
 while n <= 100:
