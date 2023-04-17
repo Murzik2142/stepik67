@@ -13,6 +13,6 @@ GC-состав является важной характеристикой г�
 s = input()
 summ = 0
 for i in range(len(s)):
-    if s[i] in "gc":
+    if s[i] in "gcGC":
         summ += 1
 print(summ / len(s) * 100)
